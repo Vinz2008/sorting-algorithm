@@ -1,6 +1,12 @@
 a = 0
 b = 1
-array = [5,4,7,101,2]
+array = []
+nb1 = int(input())
+nb2 = int(input())
+nb3 = int(input())
+array.append(nb1)
+array.append(nb2)
+array.append(nb3)
 while b < len(array):
     if array[a] > array[b]:
         v = array[b]
